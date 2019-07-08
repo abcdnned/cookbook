@@ -1,0 +1,2 @@
+杀掉所有chrom相关的进程
+ps aux | grep chrom | awk '{print $2}' | xargs kill -9
